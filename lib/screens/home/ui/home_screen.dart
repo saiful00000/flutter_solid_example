@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:solid_example/database/auth_database.dart';
+import 'package:solid_example/database/hives/auth_database.dart';
 import 'package:solid_example/screens/home/controller/home_controller.dart';
 import 'package:solid_example/services/auth_service/auth_service.dart';
 import 'package:solid_example/services/example_service/example_service.dart';
@@ -21,7 +21,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   void initState() {
     const dependency = 'dependency';
     final exampleService = ExampleService(dependency: dependency);
-    final authService = AuthService(authDatabase: AuthDatabase.instance);
+    final authService = AuthService(authDatabase: AuthDatabase.instance, exampleService: exampleService);
 
     controller = HomeController(
       context: context,

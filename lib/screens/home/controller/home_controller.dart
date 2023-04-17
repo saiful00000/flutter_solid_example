@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:solid_example/models/user_model.dart';
+import 'package:solid_example/models/user/user_model.dart';
 
 import '../../../services/auth_service/auth_service_base.dart';
 import '../../../services/example_service/example_service_base.dart';

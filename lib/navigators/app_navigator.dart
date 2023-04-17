@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:solid_example/navigators/route_names.dart';
 import 'package:solid_example/screens/splah/ui/splash_screen.dart';
 
-
 import '../screens/home/ui/home_screen.dart';
-
-class RouteNames {
-  RouteNames._();
-
-  static const splashScreen = '/splash-screen';
-  static const homeScreen = '/home-screen';
-}
 
 class AppNavigator {
   AppNavigator._();

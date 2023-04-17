@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:solid_example/navigators/app_navigator.dart';
 
+import '../../../navigators/route_names.dart';
+
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);
 
