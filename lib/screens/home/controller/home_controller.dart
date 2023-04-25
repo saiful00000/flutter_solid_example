@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:solid_example/models/user/user_model.dart';
 
-import '../../../services/auth_service/auth_service_base.dart';
-import '../../../services/example_service/example_service_base.dart';
+import '../../../services/auth_service/auth_base.dart';
+import '../../../services/example_service/example_base.dart';
 
 class HomeController {
   final BuildContext context;
   final WidgetRef ref;
-  final ExampleServiceBase exampleService;
-  final AuthServiceBase authService;
+  final ExampleBase exampleService;
+  final AuthBase authService;
 
   HomeController({
     required this.context,

@@ -1,12 +1,12 @@
 import 'package:solid_example/database/hives/auth_database.dart';
 import 'package:solid_example/models/user/user_model.dart';
-import 'package:solid_example/services/auth_service/auth_service_base.dart';
+import 'package:solid_example/services/auth_service/auth_base.dart';
 
-import '../example_service/example_service_base.dart';
+import '../example_service/example_base.dart';
 
-class AuthService implements AuthServiceBase{
+class AuthService implements AuthBase{
   final AuthDatabase authDatabase;
-  final ExampleServiceBase exampleService;
+  final ExampleBase exampleService;
 
   AuthService({required this.authDatabase, required this.exampleService});
 

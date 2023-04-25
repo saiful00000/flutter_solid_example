@@ -1,6 +1,3 @@
-class ConstVariables{
+class ConstVariables {
   ConstVariables._();
-
-
-
 }

@@ -1,6 +1,6 @@
-import 'package:solid_example/services/example_service/example_service_base.dart';
+import 'package:solid_example/services/example_service/example_base.dart';
 
-class ExampleService implements ExampleServiceBase{
+class ExampleService implements ExampleBase{
   String dependency;
 
   ExampleService({required this.dependency});
