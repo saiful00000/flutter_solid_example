@@ -1,3 +1,5 @@
+/// Single responsibility & Open Close
+
 import 'package:solid_example/models/user/user_model.dart';
 import 'package:solid_example/services/auth_service/auth_base.dart';
 

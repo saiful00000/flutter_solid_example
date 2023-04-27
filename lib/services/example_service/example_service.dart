@@ -1,3 +1,5 @@
+/// Dependency inversion principle
+
 import 'package:solid_example/services/example_service/example_base.dart';
 
 class ExampleService implements ExampleBase{

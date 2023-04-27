@@ -1,3 +1,5 @@
+/// Single responsibility & Open Close
+
 import '../../models/user/user_model.dart';
 
 abstract class AuthBase {

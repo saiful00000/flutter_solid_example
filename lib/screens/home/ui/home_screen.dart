@@ -19,10 +19,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   @override
   void initState() {
+
+    /// All dependent object ,creation before creating controller on=bject
     const dependency = 'dependency';
     final exampleService = ExampleService(dependency: dependency);
     final authService = AuthService(authDatabase: AuthDatabase.instance, exampleService: exampleService);
 
+    /// Create the controller object by injecting all dependent objects
     controller = HomeController(
       context: context,
       ref: ref,

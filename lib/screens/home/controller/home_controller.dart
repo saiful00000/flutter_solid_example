@@ -11,6 +11,8 @@ class HomeController {
   final ExampleBase exampleService;
   final AuthBase authService;
 
+
+  /// All Dependency need to be injected from owner class
   HomeController({
     required this.context,
     required this.ref,

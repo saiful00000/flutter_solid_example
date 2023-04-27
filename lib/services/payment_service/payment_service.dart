@@ -1,3 +1,7 @@
+/// Interface segregation
+///
+/// this interface breaks interface segregation principle
+
 import 'package:solid_example/services/payment_service/payment_base.dart';
 
 class PaymentService implements PaymentBase{

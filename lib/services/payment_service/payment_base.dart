@@ -1,3 +1,7 @@
+/// Interface segregation
+///
+/// this interface breaks interface segregation principle
+
 abstract class PaymentBase {
   void paypalPayment();
   void printPaypalInvoice();

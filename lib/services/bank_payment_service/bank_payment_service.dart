@@ -1,3 +1,5 @@
+/// Interface segregation
+
 import 'bank_payment_base.dart';
 
 class BankPaymentService implements BankPaymentBase {
